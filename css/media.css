@@ -1,0 +1,144 @@
+@media (max-width: 1024px) {
+    .list__item{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    .hero__box{
+        margin-left: 60px;
+    }
+    .download__img{
+        width: 200px;
+        height: 200px;
+    }
+    .about__app,
+    .about__app2,
+    .about__app4,
+    .about__app3,
+    .about__app5 {
+        width: 275px;
+        height: 467px;
+        margin-right: 20px;
+    }
+
+}
+@media (max-width: 992px) {
+    .menu__list {
+        display: none;
+    }
+
+    .slogan__text {
+        display: none;
+
+
+    }
+}
+
+@media (max-width: 798px) {
+    .mob_menu_button {
+        display: block;
+    }
+
+    .list_items {
+        display: none;
+    }
+
+    .slogan__text {
+        display: none;
+
+
+    }
+
+    .about__app,
+    .about__app2,
+    .about__app4,
+    .about__app3,
+    .about__app5 {
+        margin-left: 130px;
+    }
+   img .download__img{
+        margin-left: 200px;
+    }
+
+    .hero__text {
+        margin-left: 200px;
+    }
+    .text, .text2 {
+        margin-top: -30px;
+    }
+    .hero__box {
+        margin-bottom: 30px;
+    }
+
+    .list_item {
+        font-size: 12px;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .list_item {
+        font-size: 10px;
+
+    }
+    .about__app,
+    .about__app2,
+    .about__app4,
+    .about__app3,
+    .about__app5 {
+        margin-left: 0;
+    }
+
+    .slogan__text {
+        display: none;
+
+
+    }
+
+    .download__img {
+        width: 200px;
+        height: 200px;
+        margin-left: 100px;
+    }
+
+    .hero__text {
+        margin-right: 80px;
+    }
+
+    .slogan__img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .hero__box {
+        margin-bottom: 20px;
+    }
+
+    .about__text, .download__text, .contact__title {
+        font-size: 45px;
+    }
+
+    .download__des, .project__text {
+        font-size: 20px;
+    }
+
+    .contact__title1 {
+        font-size: 30px;
+    }
+
+    .line {
+        width: 3px;
+        margin: 0 -4px;
+    }
+}
+
+@media (max-width: 250px) {
+    .list_item {
+        font-size: 5px;
+    }
+
+    .line {
+        width: 2px;
+        margin: 0 -4px;
+    }
+}
